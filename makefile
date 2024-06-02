@@ -1,10 +1,10 @@
-all: servidor cliente
+all: servidor_bin cliente_bin
 
-servidor: servidor/servidor.cpp
-    g++ -o servidor servidor/servidor.cpp -pthread
+servidor_bin: servidor/servidor.cpp
+	g++ -o servidor_bin servidor/servidor.cpp -pthread
 
-cliente: cliente/cliente.cpp
-    g++ -o cliente cliente/cliente.cpp
+cliente_bin: cliente/cliente.cpp
+	g++ -o cliente_bin cliente/cliente.cpp
 
 clean:
-    rm -f servidor cliente
+	rm -f servidor_bin cliente_bin

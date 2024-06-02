@@ -2,7 +2,7 @@
 #include <string>
 #include <unistd.h>
 #include <arpa/inet.h>
-#include <cstring>  // Agregar esta línea para usar strstr
+#include <cstring>  
 
 #define MAX_BUFFER 1024
 
