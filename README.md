@@ -1,4 +1,4 @@
-# Tarea1CDR
+# Proyecto Cliente-Servidor
 pasos(linux):
 
 1. Una vez clonado el repositorio git a local
